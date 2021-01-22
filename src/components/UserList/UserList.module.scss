@@ -1,0 +1,20 @@
+.container {
+  min-width: 100%;
+  min-height: 20vh;
+  background-color: lavender;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.loadButton {
+  cursor: pointer;
+  background-color: white;
+  padding: 10px 20px;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}

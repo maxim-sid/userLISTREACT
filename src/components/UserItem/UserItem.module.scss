@@ -1,0 +1,32 @@
+.userItemContainer {
+  min-width: 300px;
+
+  max-width: 90vw;
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.userAvatar {
+  height: 100px;
+  width: 100px;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.deleteButton{
+  background-color: purple;
+  border: 2px solid purple;
+  cursor: pointer;
+  color: white;
+}
+
+.deleteButton:hover{
+  color: purple;
+  background-color: lavender;
+}
